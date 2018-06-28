@@ -1,0 +1,1453 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta charset="utf-8" class="next-head next-head" /><title class="jsx-3601228085 next-head">카카오페이지, 흡혈고딩 피만두 시즌2</title><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" as="script" /><style id="__jsx-513475431">div.jsx-513475431{position:absolute;top:0;height:1;border-top:5px solid #0088ff;}</style><style id="__jsx-647471322">.header.jsx-647471322{background:#ffffff;position:fixed;top:0;left:0;z-index:101;width:100%;}
+.header_pc.jsx-647471322{width:100%;border-bottom:1px solid #f3f3f3;}
+.header_mo.jsx-647471322{width:100%;}
+.logoBox_pc.jsx-647471322{width:151px;margin:26px auto 23px;cursor:pointer;}
+.logoBox_mo.jsx-647471322{width:90px;margin:17px auto 14px;}
+.logoImg.jsx-647471322{width:100%;display:block;cursor:pointer;}
+.rightBox.jsx-647471322{position:absolute;top:0;right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.rightBox_pc.jsx-647471322{padding:33px 15px 12px 0;}
+.rightBox_mo.jsx-647471322{max-width:28%;padding:19px 12px 12px 0;}
+.loginBox.jsx-647471322{color:#333;}
+.loginBox_pc.jsx-647471322{font-size:16px;padding:4px 3px 12px 5px;}
+.loginBox_mo.jsx-647471322{font-size:14px;padding:0 0 0 5px;}
+.loginBox.jsx-647471322&gt;button.jsx-647471322{background:transparent;border:none;cursor:pointer;color:#333;}
+.backButton.jsx-647471322{position:absolute;top:0px;left:0px;width:55px;cursor:pointer;}
+.userName.jsx-647471322{color:#333;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;margin:auto 0;}
+.userName_pc.jsx-647471322{padding:0 5px 0 10px;font-size:16px;}
+.userName_mo.jsx-647471322{padding:0 5px;font-size:14px;}
+.userMoreImg.jsx-647471322{border:0 none;}
+.userMoreImg_pc.jsx-647471322{top:32px;width:19px;height:19px;}
+.userMoreImg_mo.jsx-647471322{top:19px;width:14px;height:14px;}
+.userDetailBox.jsx-647471322{position:absolute;right:9px;color:#666666;background:#fff;border:1px solid #cecece;z-index:100;}
+.userDetailBox_pc.jsx-647471322{top:58px;font-size:14px;display:none;}
+.userDetailBox_mo.jsx-647471322{top:40px;font-size:12px;box-shadow:3px 3px 5px #999999;z-index:999;display:none;}
+.userDetailBox.jsx-647471322 ul.jsx-647471322{list-style:none;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child{background:#e7eeff;line-height:normal;padding:10px 0;cursor:auto;display:list-item;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child p.jsx-647471322{font-size:12px;color:#646464;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child strong.jsx-647471322{font-size:22px;color:#262626;}
+.userDetailBox.jsx-647471322 li.jsx-647471322{list-style:none;border-bottom:1px solid #e6e6e6;margin:0;width:115px;text-align:center;line-height:42px;cursor:pointer;}
+.searchBtn.jsx-647471322{width:15px;height:15px;border:0 none;}</style><style id="__jsx-93782429">.appLinkBox_pc.jsx-93782429{margin-top:15px;}
+.appLinkBox_mo.jsx-93782429{margin:10px 0;}
+.vodInfoMargin_pc.jsx-93782429{margin:10px 0 15% 0;}
+.vodInfoMargin_mo.jsx-93782429{margin:10px 0 15% 0;margin:10px 0 17vw 0;}
+.appDownload.jsx-93782429{display:block;}
+.appDownload_pc.jsx-93782429{width:720px;margin:0 auto;cursor:pointer;}
+.appDownload_mo.jsx-93782429{width:100%;}
+.footer.jsx-93782429{width:100%;padding:0;height:186px;border-top:none;background:transparent;}
+.policy.jsx-93782429{list-style:none;padding-top:60px;margin:0 auto;width:315px;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.policy.jsx-93782429 li.jsx-93782429{line-height:24px;font-size:14px;}
+.policy.jsx-93782429 li.jsx-93782429 a.jsx-93782429{color:#bdbdbd;-webkit-text-decoration:none;text-decoration:none;}
+.copyrightArea.jsx-93782429{display:block;font-size:14px;line-height:24px;color:#cdcdcd;text-align:center;margin-top:9px;}
+.vodHomeAppLinkBox.jsx-93782429{position:fixed;bottom:0;left:0;margin:0 !important;}</style><style id="__jsx-undefined">* {
+  font-family: 'AppleSDGothicNeo-Light', 'NanumGothic', 'Dotum', 'Helvetica',
+    'sans-serif' !important;
+}
+
+body {
+  background: #eee;
+  text-indent: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.swipe-wrap &gt; div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#epubViewerBody img {
+  max-width: 92%;
+  height: auto;
+}
+.listLink {
+  display: flex;
+}
+.listLink .listText {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+  padding-left: 15px;
+}
+.listLink .listIcon {
+  display: block;
+  flex: 0 0 auto;
+}
+.listLink .listIcon &gt; img {
+  width: 10px;
+  padding: 0 10px 0 0;
+}
+#tableOfEpubContents &gt; li {
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  line-height: 48px;
+}
+button {
+  cursor: pointer;
+}
+</style><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" /><link rel="shortcut icon" href="/static/common/favicon.ico?0b4947e650ec16d2e1c0161a6c9a8e54" type="image/x-icon" /><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/397702197295671?v=2.8.14&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '397702197295671'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script><noscript>
+        "&lt;img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=397702197295671&amp;ev=PageView&amp;noscript=1"
+        /&gt;"
+        </noscript><style>/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+</style><style type="text/css" data-styled-jsx=""></style><script type="text/javascript" async="" src="https://t1.daumcdn.net/tiara/js/td.min.js"></script><meta name="author" content="탐이부" class="next-head" /><meta name="keywords" content="흡혈고딩 피만두 시즌2, 탐이부" class="next-head" /><meta name="description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="og:locale" content="ko_KR" class="next-head" /><meta property="og:type" content="website" class="next-head" /><meta property="og:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta property="og:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta property="og:site_name" content="카카오페이지" class="next-head" /><meta property="og:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta property="og:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="article:author" content="카카오페이지" class="next-head" /><meta property="article:section" content="연재물" class="next-head" /><meta property="fb:app_id" content="574884132543436" class="next-head" /><meta name="twitter:card" content="summary_large_image" class="next-head" /><meta name="twitter:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="twitter:site" content="@kakaopage" class="next-head" /><meta name="twitter:creator" content="@kakaopage" class="next-head" /><meta name="twitter:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta name="twitter:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta name="twitter:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta name="plink" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="robots" content="nofollow" class="next-head" /></head><body><div id="__next"><div id="root" class="jsx-2750965640"><div class="jsx-513475431" style="width: 100%; opacity: 0; transition: width 0.5s, opacity 0.5s;"></div><div class="jsx-647471322 header header_pc "><h1 class="jsx-647471322 logoBox logoBox_pc "><img src="/static/pc/logo.png?d72315dd34f8cdc405bfaeed349c352c" alt="kakaopage logo" class="jsx-647471322 logoImg logoImg_pc " /></h1><div data-id="USER_BOX_ID" class="jsx-647471322 rightBox rightBox_pc "><span class="jsx-647471322 loginBox loginBox_pc "><button class="jsx-647471322">캐시충전 | 로그인</button></span></div></div><div class="jsx-2750965640 mainContents mainContents_pc  hiddenMenuContent"><div class="jsx-3803069605 contents contents_pc "><div class="jsx-474687690 contents contents_pc "><div class="jsx-474687690 thumbnailBox"><img src="//dn-img-page.kakao.com/download/resource?kid=cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0&amp;filename=th1" alt="흡혈고딩 피만두 시즌2" class="jsx-474687690" /></div><div class="jsx-474687690 textBox"><h2 class="jsx-474687690 text-ellipsis">흡혈고딩 피만두 시즌2</h2><div class="jsx-474687690 infoBox"><div class="jsx-474687690 infoText"><div class="jsx-474687690 text-ellipsis">탐이부</div><div class="jsx-474687690 text-ellipsis">연재중</div></div><div class="jsx-474687690 btnBox"><button data-key="isDescriptionOpen" class="jsx-474687690 btnWhite">작품소개</button><button class="jsx-474687690 btnBlue">첫편보기</button></div></div></div></div><div class="jsx-2198041472 contents"><div class="jsx-2198041472 earlyTicket"><div data-seriesid="49450403" class="jsx-2198041472 buyEarlyTicketBtn"><p class="jsx-2198041472">연재예정편(6) 먼저보기 &gt;</p></div></div></div><div class="jsx-120790059 contents"><div class="jsx-120790059 singlesHeader"><span class="jsx-120790059">전체(206)</span><span class="jsx-120790059 btnOrder">최신편부터 ▾</span><span class="jsx-120790059 selectOrder"></span></div><ul class="jsx-120790059"><li data-available="true" data-productid="51140586" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bxZElO/hyksI5mtzq/wRsRWe7pRdU1W4t3Omrd10&amp;filename=th1" alt="200화 가브리엘의 죄" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">200화 가브리엘의 죄</span></dt><dd class="jsx-120790059">2018.05.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51140582" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=eY1Zn/hyksNZUA3F/XkYv7UxhCVy5I5cd7S71AK&amp;filename=th1" alt="199화 그건 아니지?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">199화 그건 아니지?</span></dt><dd class="jsx-120790059">2018.05.14</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110803" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=JJBXi/hyikJGhqM6/xvlmYSxGgi3oFSE7OGnpR1&amp;filename=th1" alt="198화 원하는 답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">198화 원하는 답</span></dt><dd class="jsx-120790059">2018.05.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110801" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cS5pXR/hyksKaW8bN/XiZEe7RnUnokEX6QegUSRk&amp;filename=th1" alt="197화 당연히 그래야지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">197화 당연히 그래야지</span></dt><dd class="jsx-120790059">2018.05.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110798" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=c6lbhu/hyksR8ZfnR/PAYV33mUqY1352Dx4pdCnk&amp;filename=th1" alt="196화 보면 몰라?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">196화 보면 몰라?</span></dt><dd class="jsx-120790059">2018.05.07</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081836" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bfaChx/hyjapM80vx/Hf4hRR27CUNuezokrCbizk&amp;filename=th1" alt="195화 내눈에만 보여" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">195화 내눈에만 보여</span></dt><dd class="jsx-120790059">2018.05.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081834" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=hwZRI/hyikNICvcG/BVdhB7eVH74ZslWoQkpGbK&amp;filename=th1" alt="194화 퀴즈의 정답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">194화 퀴즈의 정답</span></dt><dd class="jsx-120790059">2018.05.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081823" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=L51Lj/hyjaj0tVwR/e3zxcFP4cGcrwu1R1q9KP1&amp;filename=th1" alt="193화 우매한 인간" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">193화 우매한 인간</span></dt><dd class="jsx-120790059">2018.04.30</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053511" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=knitv/hyikIAvmUy/bGTBPnX7Opp1jmEyvkxAl0&amp;filename=th1" alt="192화 가브리엘의 계획" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">192화 가브리엘의 계획</span></dt><dd class="jsx-120790059">2018.04.27</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053509" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=WWxx3/hyikGioCFn/Pwn0lnU9nLu6FZNs09gw71&amp;filename=th1" alt="191화 치료해줄게" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">191화 치료해줄게</span></dt><dd class="jsx-120790059">2018.04.25</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053507" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cGEbt6/hyjagCCSy4/cXtWer7l8BtcBHZTWK9Cj0&amp;filename=th1" alt="190화 실망이야" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">190화 실망이야</span></dt><dd class="jsx-120790059">2018.04.23</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023142" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=uqPJp/hyjalKDbdL/x2efZMG7HTu7WsdkNC4Dc1&amp;filename=th1" alt="189화 퀴즈" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">189화 퀴즈</span></dt><dd class="jsx-120790059">2018.04.20</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023139" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=di5uG/hyjapztLjm/pQUbYtksaiCojOq3vpRffK&amp;filename=th1" alt="188화 이럴 때가 아니라고!" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">188화 이럴 때가 아니라고!</span></dt><dd class="jsx-120790059">2018.04.18</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023136" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=dPyfr/hyikOAEkEm/OgVYvg98jSOSHt1jXhknqk&amp;filename=th1" alt="187화 기사단장" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">187화 기사단장</span></dt><dd class="jsx-120790059">2018.04.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992162" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=KOojl/hyikItAzQD/vHK9CsG9T7J331KkaHTKO1&amp;filename=th1" alt="186화 메시지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">186화 메시지</span></dt><dd class="jsx-120790059">2018.04.13</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992158" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bC7mHO/hyjahBnhFZ/DjdM3yBXAkNZFX3iG80A31&amp;filename=th1" alt="185화 부작용" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">185화 부작용</span></dt><dd class="jsx-120790059">2018.04.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992155" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=ssxdM/hyjamo9GAK/JDSqnRCd1NK3DS9qd9NXl1&amp;filename=th1" alt="184화 뜻밖의 동거" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">184화 뜻밖의 동거</span></dt><dd class="jsx-120790059">2018.04.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953877" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=tJtRD/hyikJlF4ku/9GLSZDeIhWKUhVzraPpvA0&amp;filename=th1" alt="183화 가브리엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">183화 가브리엘</span></dt><dd class="jsx-120790059">2018.04.06</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953875" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=viPMi/hyikI1l8l8/khfbkfFBazhRip2rcmnBKk&amp;filename=th1" alt="182화 실력 좀 볼까?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">182화 실력 좀 볼까?</span></dt><dd class="jsx-120790059">2018.04.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953873" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=1Telm/hyikFXRqNu/FRQJYAHUbaqkPYBhQSEkQ0&amp;filename=th1" alt="181화 라파엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">181화 라파엘</span></dt><dd class="jsx-120790059">2018.04.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li></ul><div class="jsx-120790059 pageNumWrapper"><span data-page="1" class="jsx-120790059 active">1</span><span data-page="2" class="jsx-120790059 ">2</span><span data-page="3" class="jsx-120790059 ">3</span><span data-page="4" class="jsx-120790059 ">4</span><span data-page="5" class="jsx-120790059 ">5</span><span data-page="6" class="jsx-120790059"><img src="/static/pc/btn_nextPaging.png?edf1977467186c18dac8cbdb9bc91a83" alt="next pages button" class="jsx-120790059" /></span></div></div></div></div><div class="jsx-93782429 appLinkBox appLinkBox_pc "><img src="/static/pc/appDownload.png?ec8ae2e191ce28a0a4eaa59d5577fa8b" alt="download link" class="jsx-93782429 appDownload appDownload_pc " /><div class="jsx-93782429 footer"><ul class="jsx-93782429 policy"><li class="jsx-93782429"><a href="http://www.kakaocorp.com/main" target="_blank" class="jsx-93782429">회사소개 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/terms" target="_blank" class="jsx-93782429">이용약관 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/privacy" target="_blank" class="jsx-93782429">개인정보처리방침 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/oppolicy" target="_blank" class="jsx-93782429">운영정책</a></li></ul><span class="jsx-93782429 copyrightArea">Copyright ⓒ Kakao Corp.</span></div></div></div></div><div id="__next-error"></div><script>
+          __NEXT_DATA__ = {"props":{"isServer":true,"store":{},"initialState":{"common":{"pAlerts":[],"showLoading":false,"categoryNew":{"10":false,"11":true,"16":true,"21":true},"user":{"requestedData":false},"pageName":"/main","prevPageName":"none","constant":{"showHeader":true,"isKatalk":false,"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true}}},"main":{"categoryHomes":{"10_1000_0":{"topBanners":[{"title":"갱스쿨","image":"nmDqJ/hyjahPsfvZ/vpnXHxyH0HFA5XSPM0PHnk","url":"/home?seriesId=51131452"}],"sections":[{"isBanner":false,"sectionType":"WEEK","viewType":"L","series":[{"title":"블레이드2 : THE RETURN OF EVIL","image":"HCJTh/hyjao8QKDW/M2nJqDCDPbWIacomqAzDwk","seriesId":51209319,"author":"임리나","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dhMiKn/hyksRIbHrx/uTRBylqx5VLzdAnpykKlg0","caption":"세상에 맞서는 영웅들의 일대기","readCount":26552,"readCountText":"2.7만","url":"/home?seriesId=51209319","badge":"BT03","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"흡혈고딩 피만두 시즌2","image":"nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0","seriesId":49450403,"author":"탐이부","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0","caption":"귀엽다고 방심 금물!","readCount":721399,"readCountText":"72.1만","url":"/home?seriesId=49450403","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카이로","image":"c63Ub3/hyikNhlmG9/FfYJwEpNUp2HfefF1j6CAk","seriesId":50257264,"author":"푸죠킹","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"eP70p/hygsXZEY5c/5K8tkmqhkBetbn5pxWqKl0","caption":"섹시한 이집트 BOY들의 폭소만점 일상!","readCount":704566,"readCountText":"70.5만","url":"/home?seriesId=50257264","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"제리루리","image":"bdCe2G/hyikIAktsc/5GDPjPFV8K5WdJDOwG1MT0","seriesId":50302080,"author":"오현","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bxQyBw/hygsWmelaG/FTl03jyU9DwheWiJCw8nm1","caption":"맑은 자가 되어, 운명에 맞서라!","readCount":564459,"readCountText":"56.4만","url":"/home?seriesId=50302080","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"갱스쿨","image":"m78jb/hyjajzETFH/1R8Nmp8W2UYEfBp1xjJtu1","seriesId":51131452,"author":"taibogi","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"OJgqb/hyksKhMBRV/HSKPI5PuXpB1gnsjey2XdK","caption":"세상을 향한 차가운 액션이 왔다!!","readCount":187191,"readCountText":"18.7만","url":"/home?seriesId=51131452","badge":"BT02","badgeLT":2,"badgeAge":1,"badgeInfo":0,"ageGrade":15,"category":10},{"title":"메카드","image":"8Y8Pf/hyikHnMwDq/5kPJVfTsKZJKpVZxhTE3s0","seriesId":50551944,"author":"채정택, 김재환","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bDa5A9/hyhBe7caeH/ovof3mUbvrIYdd6YA7FakK","caption":"올림픽 메달 파는 백수의 비밀은?","readCount":216577,"readCountText":"21.7만","url":"/home?seriesId=50551944","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"써니","image":"rkoha/hyfODneeTY/whRhOVl5i3mwM639ZCRZ9k","seriesId":49928540,"author":"최성호, 이지우, 이슬기","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bROoDD/hyfMMYNHCB/ggQ1s9eLGrL3c58sKZkbPk","caption":"오늘의 연애전선은 어떤가요?","readCount":377333,"readCountText":"37.7만","url":"/home?seriesId=49928540","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"시카 울프","image":"g5ru9/hyfOzd0oZj/PGDBO0vb5yKvTykY2k8DWK","seriesId":49883965,"author":"동전, 시야","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"QxYZt/hyfOCBMbp8/lkq3tPiCZJD6aKFh2J9dAK","caption":"소중한 사람을 찾으러 왔어요!","readCount":875309,"readCountText":"87.5만","url":"/home?seriesId=49883965","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"괜찮아 애송이 시즌2","image":"byw0kD/hyikI1oDo1/NYuSqWVQvs3zF6uPkZQuQ0","seriesId":50631088,"author":"진아","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"Gqun3/hyhBiB4Baf/2ky1CjYjXI6iMZIeUyqCz1","caption":"더 알차게 돌아왔다!","readCount":241095,"readCountText":"24.1만","url":"/home?seriesId=50631088","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"놈들의 도시","image":"hLYQW/hycusbUAcM/BlxbjaGdSuRnRbw9zzzcU1","seriesId":49173710,"author":"유들, 라떼","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cDs5J/hycuj6QXDj/Al2YXaTINpqxIJu0sKdpAk","caption":"지구상 모든 여성들이 사라졌다?","readCount":457385,"readCountText":"45.7만","url":"/home?seriesId=49173710","badge":"BT02","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카야","image":"cEIhO8/hyfxbdMSuI/mrBkfvjsXHYU49IQaWWLp0","seriesId":49777210,"author":"신일숙","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"xipVD/hyfxbdMSpP/kw6dPAEKLYc5Kg1MNt2sMK","caption":"사랑과 운명, 권력과 암투의 대서사시!","readCount":359385,"readCountText":"35.9만","url":"/home?seriesId=49777210","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"엄마는 외국인 3기","image":"ckqNHB/hycukdRPYH/FhrOKOEJ5nRmDI4bz5Cr61","seriesId":48225112,"author":"박성훈","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"GILk1/hybOXXwbiF/8VijYWGuLGcYfeNmkkYT3K","caption":"한국인보다 더 한국인스럽다?","readCount":685103,"readCountText":"68.5만","url":"/home?seriesId=48225112","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"망태","image":"yuizc/hyeRokdwqp/as4oOeDQ75NKmgPcnZxVY1","seriesId":49170525,"author":"네모, 문상","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dPKMTy/hydtHFySTy/FWnQe721IJZYgcuLLK3kC1","caption":"불성실한 영웅과 함께하는 액션활극!","readCount":360442,"readCountText":"36.0만","url":"/home?seriesId=49170525","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"요괴난전","image":"3LDBg/hycujstuhU/WpuZu8gBWDHOTaoYyN7Ou1","seriesId":46609998,"author":"김영오","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cCA9NV/hybnBHH665/0w4ZhSiNp6X4bgPw4kQ2Hk","caption":"조선의 운명이 걸린 싸움이 시작된다!","readCount":636105,"readCountText":"63.6만","url":"/home?seriesId=46609998","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"종의 기원X","image":"bwLgYK/hydtE3opxO/HgK6Yzyv8yoYHBZllf3yK0","seriesId":48400183,"author":"창, 이광열","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bipy5s/hybO0fU6Ol/7QbLogXjaNBE5wFPkWuE2k","caption":"인간들의 진화와 멸종의 기록을 찾아서!","readCount":260864,"readCountText":"26.1만","url":"/home?seriesId=48400183","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10}]}],"expireTime":1526532302598}},"categoryHomeWaitFrees":{},"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0}},"series":{},"collection":{},"viewer":{"recommendList":[]},"search":{"currentCategory":0,"categoriesOrder":[],"categories":{},"word":""},"inventory":{"seriesList":[],"isEnd":false,"nextPage":0}},"initialProps":{"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0},"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true},"pStore":{}}},"page":"/main","pathname":"/main","query":{"categoryUid":"10","subCategoryUid":"1000","navi":"1","inkatalk":"0","inChannel":"0"},"buildId":"9c730a1c-2ad5-479f-9f0b-22450a9f813c","assetPrefix":"","nextExport":false,"err":null,"chunks":[]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+
+          false
+        </script><script async="" id="__NEXT_PAGE__/main" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js"></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" async=""></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/home.js"></script><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div></body></html><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta charset="utf-8" class="next-head next-head" /><title class="jsx-3601228085 next-head">카카오페이지, 흡혈고딩 피만두 시즌2</title><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" as="script" /><style id="__jsx-513475431">div.jsx-513475431{position:absolute;top:0;height:1;border-top:5px solid #0088ff;}</style><style id="__jsx-647471322">.header.jsx-647471322{background:#ffffff;position:fixed;top:0;left:0;z-index:101;width:100%;}
+.header_pc.jsx-647471322{width:100%;border-bottom:1px solid #f3f3f3;}
+.header_mo.jsx-647471322{width:100%;}
+.logoBox_pc.jsx-647471322{width:151px;margin:26px auto 23px;cursor:pointer;}
+.logoBox_mo.jsx-647471322{width:90px;margin:17px auto 14px;}
+.logoImg.jsx-647471322{width:100%;display:block;cursor:pointer;}
+.rightBox.jsx-647471322{position:absolute;top:0;right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.rightBox_pc.jsx-647471322{padding:33px 15px 12px 0;}
+.rightBox_mo.jsx-647471322{max-width:28%;padding:19px 12px 12px 0;}
+.loginBox.jsx-647471322{color:#333;}
+.loginBox_pc.jsx-647471322{font-size:16px;padding:4px 3px 12px 5px;}
+.loginBox_mo.jsx-647471322{font-size:14px;padding:0 0 0 5px;}
+.loginBox.jsx-647471322&gt;button.jsx-647471322{background:transparent;border:none;cursor:pointer;color:#333;}
+.backButton.jsx-647471322{position:absolute;top:0px;left:0px;width:55px;cursor:pointer;}
+.userName.jsx-647471322{color:#333;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;margin:auto 0;}
+.userName_pc.jsx-647471322{padding:0 5px 0 10px;font-size:16px;}
+.userName_mo.jsx-647471322{padding:0 5px;font-size:14px;}
+.userMoreImg.jsx-647471322{border:0 none;}
+.userMoreImg_pc.jsx-647471322{top:32px;width:19px;height:19px;}
+.userMoreImg_mo.jsx-647471322{top:19px;width:14px;height:14px;}
+.userDetailBox.jsx-647471322{position:absolute;right:9px;color:#666666;background:#fff;border:1px solid #cecece;z-index:100;}
+.userDetailBox_pc.jsx-647471322{top:58px;font-size:14px;display:none;}
+.userDetailBox_mo.jsx-647471322{top:40px;font-size:12px;box-shadow:3px 3px 5px #999999;z-index:999;display:none;}
+.userDetailBox.jsx-647471322 ul.jsx-647471322{list-style:none;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child{background:#e7eeff;line-height:normal;padding:10px 0;cursor:auto;display:list-item;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child p.jsx-647471322{font-size:12px;color:#646464;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child strong.jsx-647471322{font-size:22px;color:#262626;}
+.userDetailBox.jsx-647471322 li.jsx-647471322{list-style:none;border-bottom:1px solid #e6e6e6;margin:0;width:115px;text-align:center;line-height:42px;cursor:pointer;}
+.searchBtn.jsx-647471322{width:15px;height:15px;border:0 none;}</style><style id="__jsx-93782429">.appLinkBox_pc.jsx-93782429{margin-top:15px;}
+.appLinkBox_mo.jsx-93782429{margin:10px 0;}
+.vodInfoMargin_pc.jsx-93782429{margin:10px 0 15% 0;}
+.vodInfoMargin_mo.jsx-93782429{margin:10px 0 15% 0;margin:10px 0 17vw 0;}
+.appDownload.jsx-93782429{display:block;}
+.appDownload_pc.jsx-93782429{width:720px;margin:0 auto;cursor:pointer;}
+.appDownload_mo.jsx-93782429{width:100%;}
+.footer.jsx-93782429{width:100%;padding:0;height:186px;border-top:none;background:transparent;}
+.policy.jsx-93782429{list-style:none;padding-top:60px;margin:0 auto;width:315px;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.policy.jsx-93782429 li.jsx-93782429{line-height:24px;font-size:14px;}
+.policy.jsx-93782429 li.jsx-93782429 a.jsx-93782429{color:#bdbdbd;-webkit-text-decoration:none;text-decoration:none;}
+.copyrightArea.jsx-93782429{display:block;font-size:14px;line-height:24px;color:#cdcdcd;text-align:center;margin-top:9px;}
+.vodHomeAppLinkBox.jsx-93782429{position:fixed;bottom:0;left:0;margin:0 !important;}</style><style id="__jsx-undefined">* {
+  font-family: 'AppleSDGothicNeo-Light', 'NanumGothic', 'Dotum', 'Helvetica',
+    'sans-serif' !important;
+}
+
+body {
+  background: #eee;
+  text-indent: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.swipe-wrap &gt; div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#epubViewerBody img {
+  max-width: 92%;
+  height: auto;
+}
+.listLink {
+  display: flex;
+}
+.listLink .listText {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+  padding-left: 15px;
+}
+.listLink .listIcon {
+  display: block;
+  flex: 0 0 auto;
+}
+.listLink .listIcon &gt; img {
+  width: 10px;
+  padding: 0 10px 0 0;
+}
+#tableOfEpubContents &gt; li {
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  line-height: 48px;
+}
+button {
+  cursor: pointer;
+}
+</style><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" /><link rel="shortcut icon" href="/static/common/favicon.ico?0b4947e650ec16d2e1c0161a6c9a8e54" type="image/x-icon" /><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/397702197295671?v=2.8.14&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '397702197295671'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script><noscript>
+        "&lt;img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=397702197295671&amp;ev=PageView&amp;noscript=1"
+        /&gt;"
+        </noscript><style>/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+</style><style type="text/css" data-styled-jsx=""></style><script type="text/javascript" async="" src="https://t1.daumcdn.net/tiara/js/td.min.js"></script><meta name="author" content="탐이부" class="next-head" /><meta name="keywords" content="흡혈고딩 피만두 시즌2, 탐이부" class="next-head" /><meta name="description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="og:locale" content="ko_KR" class="next-head" /><meta property="og:type" content="website" class="next-head" /><meta property="og:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta property="og:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta property="og:site_name" content="카카오페이지" class="next-head" /><meta property="og:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta property="og:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="article:author" content="카카오페이지" class="next-head" /><meta property="article:section" content="연재물" class="next-head" /><meta property="fb:app_id" content="574884132543436" class="next-head" /><meta name="twitter:card" content="summary_large_image" class="next-head" /><meta name="twitter:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="twitter:site" content="@kakaopage" class="next-head" /><meta name="twitter:creator" content="@kakaopage" class="next-head" /><meta name="twitter:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta name="twitter:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta name="twitter:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta name="plink" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="robots" content="nofollow" class="next-head" /></head><body><div id="__next"><div id="root" class="jsx-2750965640"><div class="jsx-513475431" style="width: 100%; opacity: 0; transition: width 0.5s, opacity 0.5s;"></div><div class="jsx-647471322 header header_pc "><h1 class="jsx-647471322 logoBox logoBox_pc "><img src="/static/pc/logo.png?d72315dd34f8cdc405bfaeed349c352c" alt="kakaopage logo" class="jsx-647471322 logoImg logoImg_pc " /></h1><div data-id="USER_BOX_ID" class="jsx-647471322 rightBox rightBox_pc "><span class="jsx-647471322 loginBox loginBox_pc "><button class="jsx-647471322">캐시충전 | 로그인</button></span></div></div><div class="jsx-2750965640 mainContents mainContents_pc  hiddenMenuContent"><div class="jsx-3803069605 contents contents_pc "><div class="jsx-474687690 contents contents_pc "><div class="jsx-474687690 thumbnailBox"><img src="//dn-img-page.kakao.com/download/resource?kid=cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0&amp;filename=th1" alt="흡혈고딩 피만두 시즌2" class="jsx-474687690" /></div><div class="jsx-474687690 textBox"><h2 class="jsx-474687690 text-ellipsis">흡혈고딩 피만두 시즌2</h2><div class="jsx-474687690 infoBox"><div class="jsx-474687690 infoText"><div class="jsx-474687690 text-ellipsis">탐이부</div><div class="jsx-474687690 text-ellipsis">연재중</div></div><div class="jsx-474687690 btnBox"><button data-key="isDescriptionOpen" class="jsx-474687690 btnWhite">작품소개</button><button class="jsx-474687690 btnBlue">첫편보기</button></div></div></div></div><div class="jsx-2198041472 contents"><div class="jsx-2198041472 earlyTicket"><div data-seriesid="49450403" class="jsx-2198041472 buyEarlyTicketBtn"><p class="jsx-2198041472">연재예정편(6) 먼저보기 &gt;</p></div></div></div><div class="jsx-120790059 contents"><div class="jsx-120790059 singlesHeader"><span class="jsx-120790059">전체(206)</span><span class="jsx-120790059 btnOrder">최신편부터 ▾</span><span class="jsx-120790059 selectOrder"></span></div><ul class="jsx-120790059"><li data-available="true" data-productid="51140586" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bxZElO/hyksI5mtzq/wRsRWe7pRdU1W4t3Omrd10&amp;filename=th1" alt="200화 가브리엘의 죄" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">200화 가브리엘의 죄</span></dt><dd class="jsx-120790059">2018.05.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51140582" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=eY1Zn/hyksNZUA3F/XkYv7UxhCVy5I5cd7S71AK&amp;filename=th1" alt="199화 그건 아니지?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">199화 그건 아니지?</span></dt><dd class="jsx-120790059">2018.05.14</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110803" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=JJBXi/hyikJGhqM6/xvlmYSxGgi3oFSE7OGnpR1&amp;filename=th1" alt="198화 원하는 답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">198화 원하는 답</span></dt><dd class="jsx-120790059">2018.05.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110801" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cS5pXR/hyksKaW8bN/XiZEe7RnUnokEX6QegUSRk&amp;filename=th1" alt="197화 당연히 그래야지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">197화 당연히 그래야지</span></dt><dd class="jsx-120790059">2018.05.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110798" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=c6lbhu/hyksR8ZfnR/PAYV33mUqY1352Dx4pdCnk&amp;filename=th1" alt="196화 보면 몰라?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">196화 보면 몰라?</span></dt><dd class="jsx-120790059">2018.05.07</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081836" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bfaChx/hyjapM80vx/Hf4hRR27CUNuezokrCbizk&amp;filename=th1" alt="195화 내눈에만 보여" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">195화 내눈에만 보여</span></dt><dd class="jsx-120790059">2018.05.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081834" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=hwZRI/hyikNICvcG/BVdhB7eVH74ZslWoQkpGbK&amp;filename=th1" alt="194화 퀴즈의 정답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">194화 퀴즈의 정답</span></dt><dd class="jsx-120790059">2018.05.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081823" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=L51Lj/hyjaj0tVwR/e3zxcFP4cGcrwu1R1q9KP1&amp;filename=th1" alt="193화 우매한 인간" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">193화 우매한 인간</span></dt><dd class="jsx-120790059">2018.04.30</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053511" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=knitv/hyikIAvmUy/bGTBPnX7Opp1jmEyvkxAl0&amp;filename=th1" alt="192화 가브리엘의 계획" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">192화 가브리엘의 계획</span></dt><dd class="jsx-120790059">2018.04.27</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053509" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=WWxx3/hyikGioCFn/Pwn0lnU9nLu6FZNs09gw71&amp;filename=th1" alt="191화 치료해줄게" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">191화 치료해줄게</span></dt><dd class="jsx-120790059">2018.04.25</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053507" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cGEbt6/hyjagCCSy4/cXtWer7l8BtcBHZTWK9Cj0&amp;filename=th1" alt="190화 실망이야" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">190화 실망이야</span></dt><dd class="jsx-120790059">2018.04.23</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023142" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=uqPJp/hyjalKDbdL/x2efZMG7HTu7WsdkNC4Dc1&amp;filename=th1" alt="189화 퀴즈" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">189화 퀴즈</span></dt><dd class="jsx-120790059">2018.04.20</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023139" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=di5uG/hyjapztLjm/pQUbYtksaiCojOq3vpRffK&amp;filename=th1" alt="188화 이럴 때가 아니라고!" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">188화 이럴 때가 아니라고!</span></dt><dd class="jsx-120790059">2018.04.18</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023136" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=dPyfr/hyikOAEkEm/OgVYvg98jSOSHt1jXhknqk&amp;filename=th1" alt="187화 기사단장" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">187화 기사단장</span></dt><dd class="jsx-120790059">2018.04.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992162" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=KOojl/hyikItAzQD/vHK9CsG9T7J331KkaHTKO1&amp;filename=th1" alt="186화 메시지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">186화 메시지</span></dt><dd class="jsx-120790059">2018.04.13</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992158" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bC7mHO/hyjahBnhFZ/DjdM3yBXAkNZFX3iG80A31&amp;filename=th1" alt="185화 부작용" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">185화 부작용</span></dt><dd class="jsx-120790059">2018.04.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992155" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=ssxdM/hyjamo9GAK/JDSqnRCd1NK3DS9qd9NXl1&amp;filename=th1" alt="184화 뜻밖의 동거" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">184화 뜻밖의 동거</span></dt><dd class="jsx-120790059">2018.04.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953877" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=tJtRD/hyikJlF4ku/9GLSZDeIhWKUhVzraPpvA0&amp;filename=th1" alt="183화 가브리엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">183화 가브리엘</span></dt><dd class="jsx-120790059">2018.04.06</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953875" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=viPMi/hyikI1l8l8/khfbkfFBazhRip2rcmnBKk&amp;filename=th1" alt="182화 실력 좀 볼까?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">182화 실력 좀 볼까?</span></dt><dd class="jsx-120790059">2018.04.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953873" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=1Telm/hyikFXRqNu/FRQJYAHUbaqkPYBhQSEkQ0&amp;filename=th1" alt="181화 라파엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">181화 라파엘</span></dt><dd class="jsx-120790059">2018.04.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li></ul><div class="jsx-120790059 pageNumWrapper"><span data-page="1" class="jsx-120790059 active">1</span><span data-page="2" class="jsx-120790059 ">2</span><span data-page="3" class="jsx-120790059 ">3</span><span data-page="4" class="jsx-120790059 ">4</span><span data-page="5" class="jsx-120790059 ">5</span><span data-page="6" class="jsx-120790059"><img src="/static/pc/btn_nextPaging.png?edf1977467186c18dac8cbdb9bc91a83" alt="next pages button" class="jsx-120790059" /></span></div></div></div></div><div class="jsx-93782429 appLinkBox appLinkBox_pc "><img src="/static/pc/appDownload.png?ec8ae2e191ce28a0a4eaa59d5577fa8b" alt="download link" class="jsx-93782429 appDownload appDownload_pc " /><div class="jsx-93782429 footer"><ul class="jsx-93782429 policy"><li class="jsx-93782429"><a href="http://www.kakaocorp.com/main" target="_blank" class="jsx-93782429">회사소개 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/terms" target="_blank" class="jsx-93782429">이용약관 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/privacy" target="_blank" class="jsx-93782429">개인정보처리방침 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/oppolicy" target="_blank" class="jsx-93782429">운영정책</a></li></ul><span class="jsx-93782429 copyrightArea">Copyright ⓒ Kakao Corp.</span></div></div></div></div><div id="__next-error"></div><script>
+          __NEXT_DATA__ = {"props":{"isServer":true,"store":{},"initialState":{"common":{"pAlerts":[],"showLoading":false,"categoryNew":{"10":false,"11":true,"16":true,"21":true},"user":{"requestedData":false},"pageName":"/main","prevPageName":"none","constant":{"showHeader":true,"isKatalk":false,"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true}}},"main":{"categoryHomes":{"10_1000_0":{"topBanners":[{"title":"갱스쿨","image":"nmDqJ/hyjahPsfvZ/vpnXHxyH0HFA5XSPM0PHnk","url":"/home?seriesId=51131452"}],"sections":[{"isBanner":false,"sectionType":"WEEK","viewType":"L","series":[{"title":"블레이드2 : THE RETURN OF EVIL","image":"HCJTh/hyjao8QKDW/M2nJqDCDPbWIacomqAzDwk","seriesId":51209319,"author":"임리나","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dhMiKn/hyksRIbHrx/uTRBylqx5VLzdAnpykKlg0","caption":"세상에 맞서는 영웅들의 일대기","readCount":28123,"readCountText":"2.8만","url":"/home?seriesId=51209319","badge":"BT03","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"흡혈고딩 피만두 시즌2","image":"nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0","seriesId":49450403,"author":"탐이부","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0","caption":"귀엽다고 방심 금물!","readCount":721417,"readCountText":"72.1만","url":"/home?seriesId=49450403","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카이로","image":"c63Ub3/hyikNhlmG9/FfYJwEpNUp2HfefF1j6CAk","seriesId":50257264,"author":"푸죠킹","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"eP70p/hygsXZEY5c/5K8tkmqhkBetbn5pxWqKl0","caption":"섹시한 이집트 BOY들의 폭소만점 일상!","readCount":704615,"readCountText":"70.5만","url":"/home?seriesId=50257264","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"제리루리","image":"bdCe2G/hyikIAktsc/5GDPjPFV8K5WdJDOwG1MT0","seriesId":50302080,"author":"오현","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bxQyBw/hygsWmelaG/FTl03jyU9DwheWiJCw8nm1","caption":"맑은 자가 되어, 운명에 맞서라!","readCount":564545,"readCountText":"56.5만","url":"/home?seriesId=50302080","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"갱스쿨","image":"m78jb/hyjajzETFH/1R8Nmp8W2UYEfBp1xjJtu1","seriesId":51131452,"author":"taibogi","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"OJgqb/hyksKhMBRV/HSKPI5PuXpB1gnsjey2XdK","caption":"세상을 향한 차가운 액션이 왔다!!","readCount":187461,"readCountText":"18.7만","url":"/home?seriesId=51131452","badge":"BT02","badgeLT":2,"badgeAge":1,"badgeInfo":0,"ageGrade":15,"category":10},{"title":"메카드","image":"8Y8Pf/hyikHnMwDq/5kPJVfTsKZJKpVZxhTE3s0","seriesId":50551944,"author":"채정택, 김재환","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bDa5A9/hyhBe7caeH/ovof3mUbvrIYdd6YA7FakK","caption":"올림픽 메달 파는 백수의 비밀은?","readCount":216644,"readCountText":"21.7만","url":"/home?seriesId=50551944","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"써니","image":"rkoha/hyfODneeTY/whRhOVl5i3mwM639ZCRZ9k","seriesId":49928540,"author":"최성호, 이지우, 이슬기","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bROoDD/hyfMMYNHCB/ggQ1s9eLGrL3c58sKZkbPk","caption":"오늘의 연애전선은 어떤가요?","readCount":377367,"readCountText":"37.7만","url":"/home?seriesId=49928540","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"시카 울프","image":"g5ru9/hyfOzd0oZj/PGDBO0vb5yKvTykY2k8DWK","seriesId":49883965,"author":"동전, 시야","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"QxYZt/hyfOCBMbp8/lkq3tPiCZJD6aKFh2J9dAK","caption":"소중한 사람을 찾으러 왔어요!","readCount":875336,"readCountText":"87.5만","url":"/home?seriesId=49883965","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"괜찮아 애송이 시즌2","image":"byw0kD/hyikI1oDo1/NYuSqWVQvs3zF6uPkZQuQ0","seriesId":50631088,"author":"진아","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"Gqun3/hyhBiB4Baf/2ky1CjYjXI6iMZIeUyqCz1","caption":"더 알차게 돌아왔다!","readCount":241103,"readCountText":"24.1만","url":"/home?seriesId=50631088","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"놈들의 도시","image":"hLYQW/hycusbUAcM/BlxbjaGdSuRnRbw9zzzcU1","seriesId":49173710,"author":"유들, 라떼","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cDs5J/hycuj6QXDj/Al2YXaTINpqxIJu0sKdpAk","caption":"지구상 모든 여성들이 사라졌다?","readCount":457414,"readCountText":"45.7만","url":"/home?seriesId=49173710","badge":"BT02","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카야","image":"cEIhO8/hyfxbdMSuI/mrBkfvjsXHYU49IQaWWLp0","seriesId":49777210,"author":"신일숙","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"xipVD/hyfxbdMSpP/kw6dPAEKLYc5Kg1MNt2sMK","caption":"사랑과 운명, 권력과 암투의 대서사시!","readCount":359392,"readCountText":"35.9만","url":"/home?seriesId=49777210","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"엄마는 외국인 3기","image":"ckqNHB/hycukdRPYH/FhrOKOEJ5nRmDI4bz5Cr61","seriesId":48225112,"author":"박성훈","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"GILk1/hybOXXwbiF/8VijYWGuLGcYfeNmkkYT3K","caption":"한국인보다 더 한국인스럽다?","readCount":685121,"readCountText":"68.5만","url":"/home?seriesId=48225112","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"망태","image":"yuizc/hyeRokdwqp/as4oOeDQ75NKmgPcnZxVY1","seriesId":49170525,"author":"네모, 문상","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dPKMTy/hydtHFySTy/FWnQe721IJZYgcuLLK3kC1","caption":"불성실한 영웅과 함께하는 액션활극!","readCount":360468,"readCountText":"36.0만","url":"/home?seriesId=49170525","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"요괴난전","image":"3LDBg/hycujstuhU/WpuZu8gBWDHOTaoYyN7Ou1","seriesId":46609998,"author":"김영오","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cCA9NV/hybnBHH665/0w4ZhSiNp6X4bgPw4kQ2Hk","caption":"조선의 운명이 걸린 싸움이 시작된다!","readCount":636124,"readCountText":"63.6만","url":"/home?seriesId=46609998","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"종의 기원X","image":"bwLgYK/hydtE3opxO/HgK6Yzyv8yoYHBZllf3yK0","seriesId":48400183,"author":"창, 이광열","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bipy5s/hybO0fU6Ol/7QbLogXjaNBE5wFPkWuE2k","caption":"인간들의 진화와 멸종의 기록을 찾아서!","readCount":260877,"readCountText":"26.1만","url":"/home?seriesId=48400183","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10}]}],"expireTime":1526534719838}},"categoryHomeWaitFrees":{},"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0}},"series":{},"collection":{},"viewer":{"recommendList":[]},"search":{"currentCategory":0,"categoriesOrder":[],"categories":{},"word":""},"inventory":{"seriesList":[],"isEnd":false,"nextPage":0}},"initialProps":{"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0},"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true},"pStore":{}}},"page":"/main","pathname":"/main","query":{"categoryUid":"10","subCategoryUid":"1000","navi":"1","inkatalk":"0","inChannel":"0"},"buildId":"9c730a1c-2ad5-479f-9f0b-22450a9f813c","assetPrefix":"","nextExport":false,"err":null,"chunks":[]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+
+          false
+        </script><script async="" id="__NEXT_PAGE__/main" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js"></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" async=""></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/home.js"></script><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div></body></html><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta charset="utf-8" class="next-head next-head" /><title class="jsx-3601228085 next-head">카카오페이지, 흡혈고딩 피만두 시즌2</title><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js" as="script" /><link rel="preload" href="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" as="script" /><style id="__jsx-513475431">div.jsx-513475431{position:absolute;top:0;height:1;border-top:5px solid #0088ff;}</style><style id="__jsx-647471322">.header.jsx-647471322{background:#ffffff;position:fixed;top:0;left:0;z-index:101;width:100%;}
+.header_pc.jsx-647471322{width:100%;border-bottom:1px solid #f3f3f3;}
+.header_mo.jsx-647471322{width:100%;}
+.logoBox_pc.jsx-647471322{width:151px;margin:26px auto 23px;cursor:pointer;}
+.logoBox_mo.jsx-647471322{width:90px;margin:17px auto 14px;}
+.logoImg.jsx-647471322{width:100%;display:block;cursor:pointer;}
+.rightBox.jsx-647471322{position:absolute;top:0;right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.rightBox_pc.jsx-647471322{padding:33px 15px 12px 0;}
+.rightBox_mo.jsx-647471322{max-width:28%;padding:19px 12px 12px 0;}
+.loginBox.jsx-647471322{color:#333;}
+.loginBox_pc.jsx-647471322{font-size:16px;padding:4px 3px 12px 5px;}
+.loginBox_mo.jsx-647471322{font-size:14px;padding:0 0 0 5px;}
+.loginBox.jsx-647471322&gt;button.jsx-647471322{background:transparent;border:none;cursor:pointer;color:#333;}
+.backButton.jsx-647471322{position:absolute;top:0px;left:0px;width:55px;cursor:pointer;}
+.userName.jsx-647471322{color:#333;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;margin:auto 0;}
+.userName_pc.jsx-647471322{padding:0 5px 0 10px;font-size:16px;}
+.userName_mo.jsx-647471322{padding:0 5px;font-size:14px;}
+.userMoreImg.jsx-647471322{border:0 none;}
+.userMoreImg_pc.jsx-647471322{top:32px;width:19px;height:19px;}
+.userMoreImg_mo.jsx-647471322{top:19px;width:14px;height:14px;}
+.userDetailBox.jsx-647471322{position:absolute;right:9px;color:#666666;background:#fff;border:1px solid #cecece;z-index:100;}
+.userDetailBox_pc.jsx-647471322{top:58px;font-size:14px;display:none;}
+.userDetailBox_mo.jsx-647471322{top:40px;font-size:12px;box-shadow:3px 3px 5px #999999;z-index:999;display:none;}
+.userDetailBox.jsx-647471322 ul.jsx-647471322{list-style:none;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child{background:#e7eeff;line-height:normal;padding:10px 0;cursor:auto;display:list-item;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child p.jsx-647471322{font-size:12px;color:#646464;padding:0;margin:0;}
+.userDetailBox.jsx-647471322 li.jsx-647471322:first-child strong.jsx-647471322{font-size:22px;color:#262626;}
+.userDetailBox.jsx-647471322 li.jsx-647471322{list-style:none;border-bottom:1px solid #e6e6e6;margin:0;width:115px;text-align:center;line-height:42px;cursor:pointer;}
+.searchBtn.jsx-647471322{width:15px;height:15px;border:0 none;}</style><style id="__jsx-93782429">.appLinkBox_pc.jsx-93782429{margin-top:15px;}
+.appLinkBox_mo.jsx-93782429{margin:10px 0;}
+.vodInfoMargin_pc.jsx-93782429{margin:10px 0 15% 0;}
+.vodInfoMargin_mo.jsx-93782429{margin:10px 0 15% 0;margin:10px 0 17vw 0;}
+.appDownload.jsx-93782429{display:block;}
+.appDownload_pc.jsx-93782429{width:720px;margin:0 auto;cursor:pointer;}
+.appDownload_mo.jsx-93782429{width:100%;}
+.footer.jsx-93782429{width:100%;padding:0;height:186px;border-top:none;background:transparent;}
+.policy.jsx-93782429{list-style:none;padding-top:60px;margin:0 auto;width:315px;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.policy.jsx-93782429 li.jsx-93782429{line-height:24px;font-size:14px;}
+.policy.jsx-93782429 li.jsx-93782429 a.jsx-93782429{color:#bdbdbd;-webkit-text-decoration:none;text-decoration:none;}
+.copyrightArea.jsx-93782429{display:block;font-size:14px;line-height:24px;color:#cdcdcd;text-align:center;margin-top:9px;}
+.vodHomeAppLinkBox.jsx-93782429{position:fixed;bottom:0;left:0;margin:0 !important;}</style><style id="__jsx-undefined">* {
+  font-family: 'AppleSDGothicNeo-Light', 'NanumGothic', 'Dotum', 'Helvetica',
+    'sans-serif' !important;
+}
+
+body {
+  background: #eee;
+  text-indent: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.swipe-wrap &gt; div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#epubViewerBody img {
+  max-width: 92%;
+  height: auto;
+}
+.listLink {
+  display: flex;
+}
+.listLink .listText {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+  padding-left: 15px;
+}
+.listLink .listIcon {
+  display: block;
+  flex: 0 0 auto;
+}
+.listLink .listIcon &gt; img {
+  width: 10px;
+  padding: 0 10px 0 0;
+}
+#tableOfEpubContents &gt; li {
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  line-height: 48px;
+}
+button {
+  cursor: pointer;
+}
+</style><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" /><link rel="shortcut icon" href="/static/common/favicon.ico?0b4947e650ec16d2e1c0161a6c9a8e54" type="image/x-icon" /><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/397702197295671?v=2.8.14&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '397702197295671'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script><noscript>
+        "&lt;img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=397702197295671&amp;ev=PageView&amp;noscript=1"
+        /&gt;"
+        </noscript><style>/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+</style><style type="text/css" data-styled-jsx=""></style><script type="text/javascript" async="" src="https://t1.daumcdn.net/tiara/js/td.min.js"></script><meta name="author" content="탐이부" class="next-head" /><meta name="keywords" content="흡혈고딩 피만두 시즌2, 탐이부" class="next-head" /><meta name="description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="og:locale" content="ko_KR" class="next-head" /><meta property="og:type" content="website" class="next-head" /><meta property="og:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta property="og:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta property="og:site_name" content="카카오페이지" class="next-head" /><meta property="og:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta property="og:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta property="article:author" content="카카오페이지" class="next-head" /><meta property="article:section" content="연재물" class="next-head" /><meta property="fb:app_id" content="574884132543436" class="next-head" /><meta name="twitter:card" content="summary_large_image" class="next-head" /><meta name="twitter:url" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="twitter:site" content="@kakaopage" class="next-head" /><meta name="twitter:creator" content="@kakaopage" class="next-head" /><meta name="twitter:title" content="흡혈고딩 피만두 시즌2" class="next-head" /><meta name="twitter:image" content="//dn-img-page.kakao.com/download/resource?kid=nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0&amp;filename=th2" class="next-head" /><meta name="twitter:description" content="100년 동안 다니던 정든 생활고를 떠나 마야고로 전학간 피만두!좀 더 효율적으로 피주머니들(?)에게 접근하기 위해 피부색과 머리색을 바꾸고 나타났다!만두의 정체를 모르는 마야고 " class="next-head" /><meta name="plink" content="https://page.kakao.com/home?seriesId=49450403" class="next-head" /><meta name="robots" content="nofollow" class="next-head" /></head><body><div id="__next"><div id="root" class="jsx-2750965640"><div class="jsx-513475431" style="width: 100%; opacity: 0; transition: width 0.5s, opacity 0.5s;"></div><div class="jsx-647471322 header header_pc "><h1 class="jsx-647471322 logoBox logoBox_pc "><img src="/static/pc/logo.png?d72315dd34f8cdc405bfaeed349c352c" alt="kakaopage logo" class="jsx-647471322 logoImg logoImg_pc " /></h1><div data-id="USER_BOX_ID" class="jsx-647471322 rightBox rightBox_pc "><span class="jsx-647471322 loginBox loginBox_pc "><button class="jsx-647471322">캐시충전 | 로그인</button></span></div></div><div class="jsx-2750965640 mainContents mainContents_pc  hiddenMenuContent"><div class="jsx-3803069605 contents contents_pc "><div class="jsx-474687690 contents contents_pc "><div class="jsx-474687690 thumbnailBox"><img src="//dn-img-page.kakao.com/download/resource?kid=cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0&amp;filename=th1" alt="흡혈고딩 피만두 시즌2" class="jsx-474687690" /></div><div class="jsx-474687690 textBox"><h2 class="jsx-474687690 text-ellipsis">흡혈고딩 피만두 시즌2</h2><div class="jsx-474687690 infoBox"><div class="jsx-474687690 infoText"><div class="jsx-474687690 text-ellipsis">탐이부</div><div class="jsx-474687690 text-ellipsis">연재중</div></div><div class="jsx-474687690 btnBox"><button data-key="isDescriptionOpen" class="jsx-474687690 btnWhite">작품소개</button><button class="jsx-474687690 btnBlue">첫편보기</button></div></div></div></div><div class="jsx-2198041472 contents"><div class="jsx-2198041472 earlyTicket"><div data-seriesid="49450403" class="jsx-2198041472 buyEarlyTicketBtn"><p class="jsx-2198041472">연재예정편(6) 먼저보기 &gt;</p></div></div></div><div class="jsx-120790059 contents"><div class="jsx-120790059 singlesHeader"><span class="jsx-120790059">전체(206)</span><span class="jsx-120790059 btnOrder">최신편부터 ▾</span><span class="jsx-120790059 selectOrder"></span></div><ul class="jsx-120790059"><li data-available="true" data-productid="51140586" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bxZElO/hyksI5mtzq/wRsRWe7pRdU1W4t3Omrd10&amp;filename=th1" alt="200화 가브리엘의 죄" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">200화 가브리엘의 죄</span></dt><dd class="jsx-120790059">2018.05.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51140582" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=eY1Zn/hyksNZUA3F/XkYv7UxhCVy5I5cd7S71AK&amp;filename=th1" alt="199화 그건 아니지?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">199화 그건 아니지?</span></dt><dd class="jsx-120790059">2018.05.14</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110803" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=JJBXi/hyikJGhqM6/xvlmYSxGgi3oFSE7OGnpR1&amp;filename=th1" alt="198화 원하는 답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">198화 원하는 답</span></dt><dd class="jsx-120790059">2018.05.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110801" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cS5pXR/hyksKaW8bN/XiZEe7RnUnokEX6QegUSRk&amp;filename=th1" alt="197화 당연히 그래야지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">197화 당연히 그래야지</span></dt><dd class="jsx-120790059">2018.05.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51110798" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=c6lbhu/hyksR8ZfnR/PAYV33mUqY1352Dx4pdCnk&amp;filename=th1" alt="196화 보면 몰라?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">196화 보면 몰라?</span></dt><dd class="jsx-120790059">2018.05.07</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081836" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bfaChx/hyjapM80vx/Hf4hRR27CUNuezokrCbizk&amp;filename=th1" alt="195화 내눈에만 보여" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">195화 내눈에만 보여</span></dt><dd class="jsx-120790059">2018.05.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081834" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=hwZRI/hyikNICvcG/BVdhB7eVH74ZslWoQkpGbK&amp;filename=th1" alt="194화 퀴즈의 정답" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">194화 퀴즈의 정답</span></dt><dd class="jsx-120790059">2018.05.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51081823" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=L51Lj/hyjaj0tVwR/e3zxcFP4cGcrwu1R1q9KP1&amp;filename=th1" alt="193화 우매한 인간" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">193화 우매한 인간</span></dt><dd class="jsx-120790059">2018.04.30</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053511" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=knitv/hyikIAvmUy/bGTBPnX7Opp1jmEyvkxAl0&amp;filename=th1" alt="192화 가브리엘의 계획" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">192화 가브리엘의 계획</span></dt><dd class="jsx-120790059">2018.04.27</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053509" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=WWxx3/hyikGioCFn/Pwn0lnU9nLu6FZNs09gw71&amp;filename=th1" alt="191화 치료해줄게" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">191화 치료해줄게</span></dt><dd class="jsx-120790059">2018.04.25</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51053507" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=cGEbt6/hyjagCCSy4/cXtWer7l8BtcBHZTWK9Cj0&amp;filename=th1" alt="190화 실망이야" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">190화 실망이야</span></dt><dd class="jsx-120790059">2018.04.23</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023142" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=uqPJp/hyjalKDbdL/x2efZMG7HTu7WsdkNC4Dc1&amp;filename=th1" alt="189화 퀴즈" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">189화 퀴즈</span></dt><dd class="jsx-120790059">2018.04.20</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023139" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=di5uG/hyjapztLjm/pQUbYtksaiCojOq3vpRffK&amp;filename=th1" alt="188화 이럴 때가 아니라고!" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">188화 이럴 때가 아니라고!</span></dt><dd class="jsx-120790059">2018.04.18</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="51023136" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=dPyfr/hyikOAEkEm/OgVYvg98jSOSHt1jXhknqk&amp;filename=th1" alt="187화 기사단장" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">187화 기사단장</span></dt><dd class="jsx-120790059">2018.04.16</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992162" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=KOojl/hyikItAzQD/vHK9CsG9T7J331KkaHTKO1&amp;filename=th1" alt="186화 메시지" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">186화 메시지</span></dt><dd class="jsx-120790059">2018.04.13</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992158" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=bC7mHO/hyjahBnhFZ/DjdM3yBXAkNZFX3iG80A31&amp;filename=th1" alt="185화 부작용" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">185화 부작용</span></dt><dd class="jsx-120790059">2018.04.11</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50992155" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=ssxdM/hyjamo9GAK/JDSqnRCd1NK3DS9qd9NXl1&amp;filename=th1" alt="184화 뜻밖의 동거" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">184화 뜻밖의 동거</span></dt><dd class="jsx-120790059">2018.04.09</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953877" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=tJtRD/hyikJlF4ku/9GLSZDeIhWKUhVzraPpvA0&amp;filename=th1" alt="183화 가브리엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">183화 가브리엘</span></dt><dd class="jsx-120790059">2018.04.06</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953875" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=viPMi/hyikI1l8l8/khfbkfFBazhRip2rcmnBKk&amp;filename=th1" alt="182화 실력 좀 볼까?" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">182화 실력 좀 볼까?</span></dt><dd class="jsx-120790059">2018.04.04</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li><li data-available="true" data-productid="50953873" data-free="true" data-reserved="false" data-mysinglestate="0" class="jsx-120790059 singleItem"><div class="jsx-120790059 imageWrap landscapeImgWrap"><div class="jsx-231022459 container" style="height: 78px;"><img src="//dn-img-page.kakao.com/download/resource?kid=1Telm/hyikFXRqNu/FRQJYAHUbaqkPYBhQSEkQ0&amp;filename=th1" alt="181화 라파엘" style="width: 114px; height: 78.2892px; margin-left: 0px; margin-top: -0.144578px;" /></div></div><div class="jsx-120790059 singleInfo"><dl class="jsx-120790059"><dt class="jsx-120790059 text-ellipsis"><span class="jsx-120790059">181화 라파엘</span></dt><dd class="jsx-120790059">2018.04.02</dd></dl><div class="jsx-120790059 extraInfo"></div></div></li></ul><div class="jsx-120790059 pageNumWrapper"><span data-page="1" class="jsx-120790059 active">1</span><span data-page="2" class="jsx-120790059 ">2</span><span data-page="3" class="jsx-120790059 ">3</span><span data-page="4" class="jsx-120790059 ">4</span><span data-page="5" class="jsx-120790059 ">5</span><span data-page="6" class="jsx-120790059"><img src="/static/pc/btn_nextPaging.png?edf1977467186c18dac8cbdb9bc91a83" alt="next pages button" class="jsx-120790059" /></span></div></div></div></div><div class="jsx-93782429 appLinkBox appLinkBox_pc "><img src="/static/pc/appDownload.png?ec8ae2e191ce28a0a4eaa59d5577fa8b" alt="download link" class="jsx-93782429 appDownload appDownload_pc " /><div class="jsx-93782429 footer"><ul class="jsx-93782429 policy"><li class="jsx-93782429"><a href="http://www.kakaocorp.com/main" target="_blank" class="jsx-93782429">회사소개 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/terms" target="_blank" class="jsx-93782429">이용약관 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/privacy" target="_blank" class="jsx-93782429">개인정보처리방침 •</a></li><li class="jsx-93782429"><a href="http://www.kakao.com/policy/oppolicy" target="_blank" class="jsx-93782429">운영정책</a></li></ul><span class="jsx-93782429 copyrightArea">Copyright ⓒ Kakao Corp.</span></div></div></div></div><div id="__next-error"></div><script>
+          __NEXT_DATA__ = {"props":{"isServer":true,"store":{},"initialState":{"common":{"pAlerts":[],"showLoading":false,"categoryNew":{"10":false,"11":true,"16":true,"21":true},"user":{"requestedData":false},"pageName":"/main","prevPageName":"none","constant":{"showHeader":true,"isKatalk":false,"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true}}},"main":{"categoryHomes":{"10_1000_0":{"topBanners":[{"title":"갱스쿨","image":"nmDqJ/hyjahPsfvZ/vpnXHxyH0HFA5XSPM0PHnk","url":"/home?seriesId=51131452"}],"sections":[{"isBanner":false,"sectionType":"WEEK","viewType":"L","series":[{"title":"블레이드2 : THE RETURN OF EVIL","image":"HCJTh/hyjao8QKDW/M2nJqDCDPbWIacomqAzDwk","seriesId":51209319,"author":"임리나","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dhMiKn/hyksRIbHrx/uTRBylqx5VLzdAnpykKlg0","caption":"세상에 맞서는 영웅들의 일대기","readCount":28123,"readCountText":"2.8만","url":"/home?seriesId=51209319","badge":"BT03","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"흡혈고딩 피만두 시즌2","image":"nyNWi/hyfMPhYytI/ZlmSdHBK9nr8DEE76Rjil0","seriesId":49450403,"author":"탐이부","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cT3ijM/hydtxC6Bfu/qRKoQ9tNqQIFoPgbSKjwK0","caption":"귀엽다고 방심 금물!","readCount":721417,"readCountText":"72.1만","url":"/home?seriesId=49450403","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카이로","image":"c63Ub3/hyikNhlmG9/FfYJwEpNUp2HfefF1j6CAk","seriesId":50257264,"author":"푸죠킹","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"eP70p/hygsXZEY5c/5K8tkmqhkBetbn5pxWqKl0","caption":"섹시한 이집트 BOY들의 폭소만점 일상!","readCount":704615,"readCountText":"70.5만","url":"/home?seriesId=50257264","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"제리루리","image":"bdCe2G/hyikIAktsc/5GDPjPFV8K5WdJDOwG1MT0","seriesId":50302080,"author":"오현","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bxQyBw/hygsWmelaG/FTl03jyU9DwheWiJCw8nm1","caption":"맑은 자가 되어, 운명에 맞서라!","readCount":564545,"readCountText":"56.5만","url":"/home?seriesId=50302080","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"갱스쿨","image":"m78jb/hyjajzETFH/1R8Nmp8W2UYEfBp1xjJtu1","seriesId":51131452,"author":"taibogi","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"OJgqb/hyksKhMBRV/HSKPI5PuXpB1gnsjey2XdK","caption":"세상을 향한 차가운 액션이 왔다!!","readCount":187461,"readCountText":"18.7만","url":"/home?seriesId=51131452","badge":"BT02","badgeLT":2,"badgeAge":1,"badgeInfo":0,"ageGrade":15,"category":10},{"title":"메카드","image":"8Y8Pf/hyikHnMwDq/5kPJVfTsKZJKpVZxhTE3s0","seriesId":50551944,"author":"채정택, 김재환","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bDa5A9/hyhBe7caeH/ovof3mUbvrIYdd6YA7FakK","caption":"올림픽 메달 파는 백수의 비밀은?","readCount":216644,"readCountText":"21.7만","url":"/home?seriesId=50551944","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"써니","image":"rkoha/hyfODneeTY/whRhOVl5i3mwM639ZCRZ9k","seriesId":49928540,"author":"최성호, 이지우, 이슬기","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bROoDD/hyfMMYNHCB/ggQ1s9eLGrL3c58sKZkbPk","caption":"오늘의 연애전선은 어떤가요?","readCount":377367,"readCountText":"37.7만","url":"/home?seriesId=49928540","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"시카 울프","image":"g5ru9/hyfOzd0oZj/PGDBO0vb5yKvTykY2k8DWK","seriesId":49883965,"author":"동전, 시야","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"QxYZt/hyfOCBMbp8/lkq3tPiCZJD6aKFh2J9dAK","caption":"소중한 사람을 찾으러 왔어요!","readCount":875336,"readCountText":"87.5만","url":"/home?seriesId=49883965","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"괜찮아 애송이 시즌2","image":"byw0kD/hyikI1oDo1/NYuSqWVQvs3zF6uPkZQuQ0","seriesId":50631088,"author":"진아","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"Gqun3/hyhBiB4Baf/2ky1CjYjXI6iMZIeUyqCz1","caption":"더 알차게 돌아왔다!","readCount":241103,"readCountText":"24.1만","url":"/home?seriesId=50631088","badge":"BT02","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"놈들의 도시","image":"hLYQW/hycusbUAcM/BlxbjaGdSuRnRbw9zzzcU1","seriesId":49173710,"author":"유들, 라떼","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cDs5J/hycuj6QXDj/Al2YXaTINpqxIJu0sKdpAk","caption":"지구상 모든 여성들이 사라졌다?","readCount":457414,"readCountText":"45.7만","url":"/home?seriesId=49173710","badge":"BT02","badgeLT":4,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"카야","image":"cEIhO8/hyfxbdMSuI/mrBkfvjsXHYU49IQaWWLp0","seriesId":49777210,"author":"신일숙","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"xipVD/hyfxbdMSpP/kw6dPAEKLYc5Kg1MNt2sMK","caption":"사랑과 운명, 권력과 암투의 대서사시!","readCount":359392,"readCountText":"35.9만","url":"/home?seriesId=49777210","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"엄마는 외국인 3기","image":"ckqNHB/hycukdRPYH/FhrOKOEJ5nRmDI4bz5Cr61","seriesId":48225112,"author":"박성훈","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"GILk1/hybOXXwbiF/8VijYWGuLGcYfeNmkkYT3K","caption":"한국인보다 더 한국인스럽다?","readCount":685121,"readCountText":"68.5만","url":"/home?seriesId=48225112","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"망태","image":"yuizc/hyeRokdwqp/as4oOeDQ75NKmgPcnZxVY1","seriesId":49170525,"author":"네모, 문상","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"dPKMTy/hydtHFySTy/FWnQe721IJZYgcuLLK3kC1","caption":"불성실한 영웅과 함께하는 액션활극!","readCount":360468,"readCountText":"36.0만","url":"/home?seriesId=49170525","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"요괴난전","image":"3LDBg/hycujstuhU/WpuZu8gBWDHOTaoYyN7Ou1","seriesId":46609998,"author":"김영오","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"cCA9NV/hybnBHH665/0w4ZhSiNp6X4bgPw4kQ2Hk","caption":"조선의 운명이 걸린 싸움이 시작된다!","readCount":636124,"readCountText":"63.6만","url":"/home?seriesId=46609998","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10},{"title":"종의 기원X","image":"bwLgYK/hydtE3opxO/HgK6Yzyv8yoYHBZllf3yK0","seriesId":48400183,"author":"창, 이광열","businessModel":"P","seriesType":"W","waitfree":false,"thumbImg":"bipy5s/hybO0fU6Ol/7QbLogXjaNBE5wFPkWuE2k","caption":"인간들의 진화와 멸종의 기록을 찾아서!","readCount":260877,"readCountText":"26.1만","url":"/home?seriesId=48400183","badge":"BT99","badgeLT":2,"badgeAge":0,"badgeInfo":0,"ageGrade":0,"category":10}]}],"expireTime":1526535189355}},"categoryHomeWaitFrees":{},"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0}},"series":{},"collection":{},"viewer":{"recommendList":[]},"search":{"currentCategory":0,"categoriesOrder":[],"categories":{},"word":""},"inventory":{"seriesList":[],"isEnd":false,"nextPage":0}},"initialProps":{"mainQuery":{"categoryUid":10,"subCategoryUid":1000,"tabType":0},"userAgent":{"name":"Chrome","chrome":true,"version":"66.0","blink":true,"mac":true,"osname":"macOS","osversion":"10.13.4","a":true},"pStore":{}}},"page":"/main","pathname":"/main","query":{"categoryUid":"10","subCategoryUid":"1000","navi":"1","inkatalk":"0","inChannel":"0"},"buildId":"9c730a1c-2ad5-479f-9f0b-22450a9f813c","assetPrefix":"","nextExport":false,"err":null,"chunks":[]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+
+          false
+        </script><script async="" id="__NEXT_PAGE__/main" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/main.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/_error.js"></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/main.js" async=""></script><script src="/_next/9c730a1c-2ad5-479f-9f0b-22450a9f813c/page/home.js"></script><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div></body></html>
